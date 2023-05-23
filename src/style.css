@@ -1,7 +1,51 @@
-.hello {
-    color: red;
+.container {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
 }
 
-body {
-    background-color: bisque;
+.header {
+  margin-left: 10%;
+}
+
+.score-sect {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.score-sect button {
+  height: 50%;
+  margin-top: 9%;
+}
+
+.first-container {
+  width: 50%;
+}
+
+.board ul {
+  list-style: none;
+  width: 30%;
+  border: 1px solid black;
+  padding: 0;
+  padding-left: 2px;
+}
+
+.board ul li:nth-child(2n) {
+  background: #ccc;
+}
+
+.second-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.second-container form button {
+  width: 40%;
+  margin-left: 60%;
 }
