@@ -17,8 +17,8 @@ const loadData = (e) => {
     body: JSON.stringify({ user: `${gamerName}`, score: `${gamerScore}` }),
   })
     .then((response) => response.json());
-    nameInput.value = '';
-    scoreInput.value = '';
+  nameInput.value = '';
+  scoreInput.value = '';
 };
 
 form.addEventListener('submit', loadData);
