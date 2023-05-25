@@ -1,7 +1,7 @@
 .container {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .header {
@@ -10,7 +10,7 @@
 
 .score-sect {
   display: flex;
-  width: 40%;
+  width: 80%;
   justify-content: space-between;
 }
 
@@ -25,14 +25,15 @@
 
 .board ul {
   list-style: none;
-  width: 30%;
-  border: 1px solid black;
+  width: 80%;
+  border: 2px solid #73777b;
   padding: 0;
   padding-left: 2px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .board ul li:nth-child(2n) {
-  background: #ccc;
+  background: #83b87b;
 }
 
 .second-container form {
@@ -48,4 +49,12 @@ input {
 .second-container form button {
   width: 40%;
   margin-left: 60%;
+}
+
+#btn-get-data {
+  background: rgb(112, 196, 112);
+  border-radius: 6px;
+  border: 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  cursor: pointer;
 }
