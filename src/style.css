@@ -1,7 +1,7 @@
 .container {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .header {
@@ -10,7 +10,7 @@
 
 .score-sect {
   display: flex;
-  width: 40%;
+  width: 80%;
   justify-content: space-between;
 }
 
@@ -25,8 +25,8 @@
 
 .board ul {
   list-style: none;
-  width: 30%;
-  border: 1px solid black;
+  width: 80%;
+  border: 2px solid #73777b;
   padding: 0;
   padding-left: 2px;
 }
